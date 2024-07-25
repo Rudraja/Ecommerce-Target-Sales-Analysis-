@@ -5,16 +5,25 @@ This project involves analyzing sales data from an eCommerce platform, focusing 
 Dataset
 The dataset used in this project includes information about customers, orders, products, and sellers. It contains the following key attributes:
 
-Customer details: Customer ID, City, State
-
-Order details: Order ID, Order Date, Order Value, Payment Type
-
-Product details: Product ID, Category, Price
-
-Seller details: Seller ID, Revenue
+customers.csv
+Customer details: Customer ID, Customer Unique ID, Zip Code Prefix, City, State
+geolocations.csv
+Geolocation details: Zip Code Prefix, Latitude, Longitude, City, State
+order_items.csv
+Order item details: Order ID, Order Item ID, Product ID, Seller ID, Shipping Limit Date, Price, Freight Value
+orders.csv
+Order details: Order ID, Customer ID, Order Status, Order Purchase Timestamp, Order Delivered Carrier Date, Order Delivered Customer Date, Order Estimated Delivery Date
+payments.csv
+Payment details: Order ID, Payment Sequential, Payment Type, Payment Installments, Payment Value
+products.csv
+Product details: Product ID, Product Category Name, Product Name Length, Product Description Length, Product Photos Quantity, Product Weight (g), Product Length (cm), Product Height (cm), Product Width (cm)
+sellers.csv
+Seller details: Seller ID, Zip Code Prefix, City, State
 
 
 Insights
+
+
 Through this analysis, I derived several key insights that demonstrate my ability to handle real-world data challenges and generate actionable business intelligence:
 
 Geographic Distribution: Identified unique cities and states where customers are located, helping to tailor regional marketing strategies and logistics.
