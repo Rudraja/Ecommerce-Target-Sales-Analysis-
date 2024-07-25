@@ -6,9 +6,14 @@ Dataset
 The dataset used in this project includes information about customers, orders, products, and sellers. It contains the following key attributes:
 
 Customer details: Customer ID, City, State
+
 Order details: Order ID, Order Date, Order Value, Payment Type
+
 Product details: Product ID, Category, Price
+
 Seller details: Seller ID, Revenue
+
+
 Insights
 Through this analysis, I derived several key insights that demonstrate my ability to handle real-world data challenges and generate actionable business intelligence:
 
